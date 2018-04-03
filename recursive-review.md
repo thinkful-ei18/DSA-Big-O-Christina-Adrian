@@ -27,3 +27,22 @@ O(n)
 Linear: the output gets bigger based on the input
 O(n)
 
+### Fibonacci
+Quadratic: the fibonacci recursive function is called twice for each value in the sequence
+O(n^2)
+
+### Anagrams
+Exponential (or quadratic?) : the input is recursed over for i < str.length times 
+O(2^n)
+
+### Animal Hierarchy
+Log: The dataset is filtered by the {parent: } key so each dataset being recursed is smaller
+O(Log n)
+
+### Organizational Chart
+  #### traverseA
+    Linear: the data input is recursed over by the forEach loop and grows with the input
+    O(n)
+  #### traverseB
+    Linear: the data input is recursed over by the for in loop and grows with the input    
+    O(n)
