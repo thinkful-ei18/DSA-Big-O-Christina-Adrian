@@ -41,8 +41,43 @@ O(Log n)
 
 ### Organizational Chart
   #### traverseA
-    Linear: the data input is recursed over by the forEach loop and grows with the input
-    O(n)
+    Exponential: the data input is recursed over by the forEach loop and grows exponentially with the input
+    O(2^n)
   #### traverseB
-    Linear: the data input is recursed over by the for in loop and grows with the input    
-    O(n)
+    Exponential: the data input is recursed over by the for in loop and grows exponentially with the input    
+    O(2^n)
+
+
+################################################ ITERATIVE ################################################
+
+### Counting sheep
+Linear: output increases based on input, the num is looped over once
+O(n)
+
+### Double All
+Linear: output increases based on input, one for loop
+O(n)
+
+### Reverse string
+Linear: output increses based on input, one for loop
+O(n)
+
+### Triangle
+Linear: output increases based on input, if the input is larger the output will be larger
+O(n)
+
+### String Split
+Linear: while the sep is contained in the string split at the sep and str equals left over string after slice, continue
+O(n)
+
+### Binary Representation 
+Linear: the num is converted to binary inside the while loop, output would increase based on input
+O(n)
+
+### Factorial
+Linear: the factorial increases based on the input
+O(n)
+
+### Fibonacci 
+Linear: the number increases based on the input because of the while loop
+O(n)
