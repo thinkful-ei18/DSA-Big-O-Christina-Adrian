@@ -9,7 +9,7 @@ function isEven(value){
   else
     return false;
 }
-// O(n)
+// O(1)
 /// The input will always be evaluated only once
 
 
@@ -36,7 +36,7 @@ function doubleArrayValues(array) {
   return array;
 }
 // O(n)
-/// The input will only be evaluated once 
+/// The input will only be evaluated once
 
 
 // NATIVE SEARCH
@@ -60,7 +60,7 @@ function createPairs(arr) {
   }
 }
 // O(n^2)
-/// The outter loop goes through the array starting at index 0 then the inner loop beings 
+/// The outter loop goes through the array starting at index 0 then the inner loop beings
 /// at array index 1 and create all possible value pairs, the input array is evaluted twice at a minimimum
 
 
@@ -128,7 +128,7 @@ function efficientSearch(array, item) {
 function findRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
-// O(n)
+// O(1)
 // The algorithm always picks a random index so the size of the data set does not matter
 
 
