@@ -9,7 +9,7 @@ function isEven(value){
   else
     return false;
 }
-// O(n)
+// O(1)
 /// The input will always be evaluated only once
 
 
@@ -35,7 +35,7 @@ function doubleArrayValues(array) {
   }
   return array;
 }
-// O(n)
+// O(1)
 /// The input will only be evaluated once 
 
 
@@ -128,20 +128,20 @@ function efficientSearch(array, item) {
 function findRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
-// O(n)
+// O(1)
 // The algorithm always picks a random index so the size of the data set does not matter
 
 
 // IS IT PRIME
 function isPrime(n) {
   // if n is less than 2 or a decimal, it's not prime
-  if (n < 2 || n % 1 != 0) {
+  if (n < 2 || n % 1 !== 0) {
       return false;
   }
   // otherwise, check if `n` is divisible by any integer
   // between 2 and n.
   for (let i = 2; i < n; ++i) {
-      if (n % i == 0) return false;
+      if (n % i === 0) return false;
   }
   return true;
 }
